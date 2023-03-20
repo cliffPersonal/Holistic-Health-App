@@ -1,0 +1,32 @@
+#micronaut:
+#  application:
+#    name: holistichealth
+#datasources:
+#  default:
+#    username: ''
+#    password: ''
+#    ocid: ''
+#    walletPassword: ''
+#    schema-generate: CREATE_DROP
+#    dialect: ORACLE
+#oci.config.profile: DEFAULT
+#netty:
+#  default:
+#    allocator:
+#      max-order: 3
+micronaut:
+  application:
+    name: holistichealth
+  executors:
+    io:
+      type: fixed
+      nThreads: 75
+flyway:
+  datasources:
+    ocid: ocid1.autonomousdatabase.oc1.iad.anuwcljtsm4floqab766ge7ufqm4kj7danrxuxm4oruvhvb3ujt6jrvqunva
+    walletPassword: micronaut.1
+    username: ADMIN
+    password: HolisticHealth1
+    default:
+      enabled: true
+      cleanOnValidationError: true

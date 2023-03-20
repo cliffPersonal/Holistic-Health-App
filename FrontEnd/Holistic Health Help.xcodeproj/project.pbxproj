@@ -1,0 +1,640 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3DD27A572812E2C0000BFF75 /* LogEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD27A562812E2C0000BFF75 /* LogEntryViewController.swift */; };
+		3DD27A5C28168076000BFF75 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD27A5B28168076000BFF75 /* ProfileViewController.swift */; };
+		3DD27A642817C81B000BFF75 /* DisplayLogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD27A632817C81B000BFF75 /* DisplayLogViewController.swift */; };
+		3DD27A6F2819258B000BFF75 /* SymptomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD27A6E2819258B000BFF75 /* SymptomCell.swift */; };
+		3DD7D38527FA6235004DE9B4 /* DailyLogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD7D38427FA6235004DE9B4 /* DailyLogViewController.swift */; };
+		3DD7D38A27FA625A004DE9B4 /* RecommendedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD7D38927FA625A004DE9B4 /* RecommendedViewController.swift */; };
+		3DE7384A27BC755A009F4325 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE7384927BC755A009F4325 /* AppDelegate.swift */; };
+		3DE7384C27BC755A009F4325 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE7384B27BC755A009F4325 /* SceneDelegate.swift */; };
+		3DE7384E27BC755A009F4325 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE7384D27BC755A009F4325 /* ViewController.swift */; };
+		3DE7385127BC755A009F4325 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DE7384F27BC755A009F4325 /* Main.storyboard */; };
+		3DE7385327BC7562009F4325 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DE7385227BC7562009F4325 /* Assets.xcassets */; };
+		3DE7385627BC7562009F4325 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DE7385427BC7562009F4325 /* LaunchScreen.storyboard */; };
+		3DE7386127BC7562009F4325 /* Holistic_Health_HelpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE7386027BC7562009F4325 /* Holistic_Health_HelpTests.swift */; };
+		3DE7386C27BC7562009F4325 /* Holistic_Health_HelpUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE7386B27BC7562009F4325 /* Holistic_Health_HelpUITests.swift */; };
+		3DE7388027BF8244009F4325 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE7387F27BF8244009F4325 /* RegisterViewController.swift */; };
+		3DEF1E232809EA4A00C8C586 /* CalendarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEF1E222809EA4A00C8C586 /* CalendarCell.swift */; };
+		3DEF1E282809EE3700C8C586 /* CalendarHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEF1E272809EE3700C8C586 /* CalendarHelper.swift */; };
+		C52F49152807B7D3001ED3D7 /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52F49142807B7D3001ED3D7 /* Singleton.swift */; };
+		C576B7EC28129020007E99A2 /* Recommendation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C576B7EB28129020007E99A2 /* Recommendation.swift */; };
+		C5BB938228121FF200484BAF /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5BB938128121FF200484BAF /* EditViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3DE7385D27BC7562009F4325 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DE7383E27BC755A009F4325 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DE7384527BC755A009F4325;
+			remoteInfo = "Holistic Health Help";
+		};
+		3DE7386827BC7562009F4325 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DE7383E27BC755A009F4325 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DE7384527BC755A009F4325;
+			remoteInfo = "Holistic Health Help";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3DD27A562812E2C0000BFF75 /* LogEntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogEntryViewController.swift; sourceTree = "<group>"; };
+		3DD27A5B28168076000BFF75 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		3DD27A632817C81B000BFF75 /* DisplayLogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayLogViewController.swift; sourceTree = "<group>"; };
+		3DD27A6E2819258B000BFF75 /* SymptomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymptomCell.swift; sourceTree = "<group>"; };
+		3DD7D38427FA6235004DE9B4 /* DailyLogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyLogViewController.swift; sourceTree = "<group>"; };
+		3DD7D38927FA625A004DE9B4 /* RecommendedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendedViewController.swift; sourceTree = "<group>"; };
+		3DE7384627BC755A009F4325 /* Holistic Health Help.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Holistic Health Help.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DE7384927BC755A009F4325 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3DE7384B27BC755A009F4325 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3DE7384D27BC755A009F4325 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3DE7385027BC755A009F4325 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3DE7385227BC7562009F4325 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3DE7385527BC7562009F4325 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3DE7385727BC7562009F4325 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DE7385C27BC7562009F4325 /* Holistic Health HelpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Holistic Health HelpTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DE7386027BC7562009F4325 /* Holistic_Health_HelpTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Holistic_Health_HelpTests.swift; sourceTree = "<group>"; };
+		3DE7386227BC7562009F4325 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DE7386727BC7562009F4325 /* Holistic Health HelpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Holistic Health HelpUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DE7386B27BC7562009F4325 /* Holistic_Health_HelpUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Holistic_Health_HelpUITests.swift; sourceTree = "<group>"; };
+		3DE7386D27BC7562009F4325 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DE7387F27BF8244009F4325 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		3DEF1E222809EA4A00C8C586 /* CalendarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCell.swift; sourceTree = "<group>"; };
+		3DEF1E272809EE3700C8C586 /* CalendarHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarHelper.swift; sourceTree = "<group>"; };
+		C52F49142807B7D3001ED3D7 /* Singleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
+		C576B7EB28129020007E99A2 /* Recommendation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recommendation.swift; sourceTree = "<group>"; };
+		C5BB938128121FF200484BAF /* EditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3DE7384327BC755A009F4325 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DE7385927BC7562009F4325 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DE7386427BC7562009F4325 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3DE7383D27BC755A009F4325 = {
+			isa = PBXGroup;
+			children = (
+				3DD27A6E2819258B000BFF75 /* SymptomCell.swift */,
+				3DEF1E272809EE3700C8C586 /* CalendarHelper.swift */,
+				3DEF1E222809EA4A00C8C586 /* CalendarCell.swift */,
+				3DE7384827BC755A009F4325 /* Holistic Health Help */,
+				3DE7385F27BC7562009F4325 /* Holistic Health HelpTests */,
+				3DE7386A27BC7562009F4325 /* Holistic Health HelpUITests */,
+				3DE7384727BC755A009F4325 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3DE7384727BC755A009F4325 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3DE7384627BC755A009F4325 /* Holistic Health Help.app */,
+				3DE7385C27BC7562009F4325 /* Holistic Health HelpTests.xctest */,
+				3DE7386727BC7562009F4325 /* Holistic Health HelpUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DE7384827BC755A009F4325 /* Holistic Health Help */ = {
+			isa = PBXGroup;
+			children = (
+				3DE7384927BC755A009F4325 /* AppDelegate.swift */,
+				3DE7384B27BC755A009F4325 /* SceneDelegate.swift */,
+				3DE7384D27BC755A009F4325 /* ViewController.swift */,
+				C52F49142807B7D3001ED3D7 /* Singleton.swift */,
+				3DE7384F27BC755A009F4325 /* Main.storyboard */,
+				3DD7D38927FA625A004DE9B4 /* RecommendedViewController.swift */,
+				3DD7D38427FA6235004DE9B4 /* DailyLogViewController.swift */,
+				3DE7387F27BF8244009F4325 /* RegisterViewController.swift */,
+				3DE7385227BC7562009F4325 /* Assets.xcassets */,
+				3DE7385427BC7562009F4325 /* LaunchScreen.storyboard */,
+				3DE7385727BC7562009F4325 /* Info.plist */,
+				C5BB938128121FF200484BAF /* EditViewController.swift */,
+				C576B7EB28129020007E99A2 /* Recommendation.swift */,
+				3DD27A562812E2C0000BFF75 /* LogEntryViewController.swift */,
+				3DD27A5B28168076000BFF75 /* ProfileViewController.swift */,
+				3DD27A632817C81B000BFF75 /* DisplayLogViewController.swift */,
+			);
+			path = "Holistic Health Help";
+			sourceTree = "<group>";
+		};
+		3DE7385F27BC7562009F4325 /* Holistic Health HelpTests */ = {
+			isa = PBXGroup;
+			children = (
+				3DE7386027BC7562009F4325 /* Holistic_Health_HelpTests.swift */,
+				3DE7386227BC7562009F4325 /* Info.plist */,
+			);
+			path = "Holistic Health HelpTests";
+			sourceTree = "<group>";
+		};
+		3DE7386A27BC7562009F4325 /* Holistic Health HelpUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3DE7386B27BC7562009F4325 /* Holistic_Health_HelpUITests.swift */,
+				3DE7386D27BC7562009F4325 /* Info.plist */,
+			);
+			path = "Holistic Health HelpUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3DE7384527BC755A009F4325 /* Holistic Health Help */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DE7387027BC7562009F4325 /* Build configuration list for PBXNativeTarget "Holistic Health Help" */;
+			buildPhases = (
+				3DE7384227BC755A009F4325 /* Sources */,
+				3DE7384327BC755A009F4325 /* Frameworks */,
+				3DE7384427BC755A009F4325 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Holistic Health Help";
+			productName = "Holistic Health Help";
+			productReference = 3DE7384627BC755A009F4325 /* Holistic Health Help.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3DE7385B27BC7562009F4325 /* Holistic Health HelpTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DE7387327BC7562009F4325 /* Build configuration list for PBXNativeTarget "Holistic Health HelpTests" */;
+			buildPhases = (
+				3DE7385827BC7562009F4325 /* Sources */,
+				3DE7385927BC7562009F4325 /* Frameworks */,
+				3DE7385A27BC7562009F4325 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DE7385E27BC7562009F4325 /* PBXTargetDependency */,
+			);
+			name = "Holistic Health HelpTests";
+			productName = "Holistic Health HelpTests";
+			productReference = 3DE7385C27BC7562009F4325 /* Holistic Health HelpTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3DE7386627BC7562009F4325 /* Holistic Health HelpUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DE7387627BC7562009F4325 /* Build configuration list for PBXNativeTarget "Holistic Health HelpUITests" */;
+			buildPhases = (
+				3DE7386327BC7562009F4325 /* Sources */,
+				3DE7386427BC7562009F4325 /* Frameworks */,
+				3DE7386527BC7562009F4325 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DE7386927BC7562009F4325 /* PBXTargetDependency */,
+			);
+			name = "Holistic Health HelpUITests";
+			productName = "Holistic Health HelpUITests";
+			productReference = 3DE7386727BC7562009F4325 /* Holistic Health HelpUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3DE7383E27BC755A009F4325 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					3DE7384527BC755A009F4325 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					3DE7385B27BC7562009F4325 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 3DE7384527BC755A009F4325;
+					};
+					3DE7386627BC7562009F4325 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 3DE7384527BC755A009F4325;
+					};
+				};
+			};
+			buildConfigurationList = 3DE7384127BC755A009F4325 /* Build configuration list for PBXProject "Holistic Health Help" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3DE7383D27BC755A009F4325;
+			productRefGroup = 3DE7384727BC755A009F4325 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3DE7384527BC755A009F4325 /* Holistic Health Help */,
+				3DE7385B27BC7562009F4325 /* Holistic Health HelpTests */,
+				3DE7386627BC7562009F4325 /* Holistic Health HelpUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3DE7384427BC755A009F4325 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DE7385627BC7562009F4325 /* LaunchScreen.storyboard in Resources */,
+				3DE7385327BC7562009F4325 /* Assets.xcassets in Resources */,
+				3DE7385127BC755A009F4325 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DE7385A27BC7562009F4325 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DE7386527BC7562009F4325 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3DE7384227BC755A009F4325 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C576B7EC28129020007E99A2 /* Recommendation.swift in Sources */,
+				3DD7D38A27FA625A004DE9B4 /* RecommendedViewController.swift in Sources */,
+				3DD7D38527FA6235004DE9B4 /* DailyLogViewController.swift in Sources */,
+				3DE7384E27BC755A009F4325 /* ViewController.swift in Sources */,
+				C5BB938228121FF200484BAF /* EditViewController.swift in Sources */,
+				3DD27A6F2819258B000BFF75 /* SymptomCell.swift in Sources */,
+				3DD27A642817C81B000BFF75 /* DisplayLogViewController.swift in Sources */,
+				3DE7384A27BC755A009F4325 /* AppDelegate.swift in Sources */,
+				3DEF1E282809EE3700C8C586 /* CalendarHelper.swift in Sources */,
+				3DEF1E232809EA4A00C8C586 /* CalendarCell.swift in Sources */,
+				3DE7384C27BC755A009F4325 /* SceneDelegate.swift in Sources */,
+				C52F49152807B7D3001ED3D7 /* Singleton.swift in Sources */,
+				3DD27A5C28168076000BFF75 /* ProfileViewController.swift in Sources */,
+				3DD27A572812E2C0000BFF75 /* LogEntryViewController.swift in Sources */,
+				3DE7388027BF8244009F4325 /* RegisterViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DE7385827BC7562009F4325 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DE7386127BC7562009F4325 /* Holistic_Health_HelpTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DE7386327BC7562009F4325 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DE7386C27BC7562009F4325 /* Holistic_Health_HelpUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3DE7385E27BC7562009F4325 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DE7384527BC755A009F4325 /* Holistic Health Help */;
+			targetProxy = 3DE7385D27BC7562009F4325 /* PBXContainerItemProxy */;
+		};
+		3DE7386927BC7562009F4325 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DE7384527BC755A009F4325 /* Holistic Health Help */;
+			targetProxy = 3DE7386827BC7562009F4325 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3DE7384F27BC755A009F4325 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DE7385027BC755A009F4325 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3DE7385427BC7562009F4325 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DE7385527BC7562009F4325 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3DE7386E27BC7562009F4325 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3DE7386F27BC7562009F4325 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3DE7387127BC7562009F4325 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Holistic Health Help/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.usc.clifforl.Holistic-Health-Help";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3DE7387227BC7562009F4325 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Holistic Health Help/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.usc.clifforl.Holistic-Health-Help";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3DE7387427BC7562009F4325 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Holistic Health HelpTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.usc.clifforl.Holistic-Health-HelpTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Holistic Health Help.app/Holistic Health Help";
+			};
+			name = Debug;
+		};
+		3DE7387527BC7562009F4325 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Holistic Health HelpTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.usc.clifforl.Holistic-Health-HelpTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Holistic Health Help.app/Holistic Health Help";
+			};
+			name = Release;
+		};
+		3DE7387727BC7562009F4325 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Holistic Health HelpUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.usc.clifforl.Holistic-Health-HelpUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Holistic Health Help";
+			};
+			name = Debug;
+		};
+		3DE7387827BC7562009F4325 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Holistic Health HelpUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.usc.clifforl.Holistic-Health-HelpUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Holistic Health Help";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3DE7384127BC755A009F4325 /* Build configuration list for PBXProject "Holistic Health Help" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DE7386E27BC7562009F4325 /* Debug */,
+				3DE7386F27BC7562009F4325 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DE7387027BC7562009F4325 /* Build configuration list for PBXNativeTarget "Holistic Health Help" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DE7387127BC7562009F4325 /* Debug */,
+				3DE7387227BC7562009F4325 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DE7387327BC7562009F4325 /* Build configuration list for PBXNativeTarget "Holistic Health HelpTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DE7387427BC7562009F4325 /* Debug */,
+				3DE7387527BC7562009F4325 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DE7387627BC7562009F4325 /* Build configuration list for PBXNativeTarget "Holistic Health HelpUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DE7387727BC7562009F4325 /* Debug */,
+				3DE7387827BC7562009F4325 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3DE7383E27BC755A009F4325 /* Project object */;
+}

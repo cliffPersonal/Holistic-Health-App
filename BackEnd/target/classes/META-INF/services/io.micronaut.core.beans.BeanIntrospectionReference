@@ -1,0 +1,9 @@
+example.micronaut.domain.$CONDITIONS$IntrospectionRef
+example.micronaut.domain.$SUPPLEMENTS$IntrospectionRef
+example.micronaut.domain.$SUPPLEMENT_LOGS$IntrospectionRef
+example.micronaut.domain.$SYMPTOMS$IntrospectionRef
+example.micronaut.domain.$SYMPTOM_LOGS$IntrospectionRef
+example.micronaut.domain.$Thing$IntrospectionRef
+example.micronaut.domain.$USERS$IntrospectionRef
+example.micronaut.domain.$USER_CONDITIONS$IntrospectionRef
+example.micronaut.domain.$USER_SUPPLEMENTS$IntrospectionRef

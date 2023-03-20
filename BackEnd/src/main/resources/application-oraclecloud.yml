@@ -1,0 +1,9 @@
+datasources:
+  default:
+    ocid: ocid1.autonomousdatabase.oc1.iad.anuwcljtsm4floqab766ge7ufqm4kj7danrxuxm4oruvhvb3ujt6jrvqunva
+    walletPassword: "HolisticHealth1"
+    username: micronautdemo
+    password: "Testtest123456"
+oci:
+  config:
+    profile: DEFAULT
